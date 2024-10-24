@@ -1,0 +1,25 @@
+<h2>Alumno {{alumno.nombre}} - <span id="idAlumno">{{alumno.id}}</span></h2>
+<hr>
+<ul>
+    {{#each cursando}}
+        <li>
+            {{nombre}} | reinscripciones: {{reinscripciones}}
+        </li>
+    {{/each}}
+</ul>
+
+<br>
+<h2>Oferta de cursos</h2>
+<hr>
+<ul id="cursos">
+    {{#each cursos}}
+        <li>
+            {{nombre}} - horas: {{horas}} <button onclick="agregaCurso({{id}})">Agregar</button>
+        </li>
+    {{/each}}
+</ul>
+<br>
+<a href="/alumnos">Listado Alumnos</a>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/alumno.js"></script>

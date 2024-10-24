@@ -1,0 +1,63 @@
+[
+     {
+          "id": 1,
+          "nombre": "Juan",
+          "email": "juan@test.com",
+          "cursando": [
+               {
+                    "id": 1,
+                    "reinscripciones": 5
+               },
+               {
+                    "id": 3,
+                    "reinscripciones": 2
+               },
+               {
+                    "id": 4,
+                    "reinscripciones": 0
+               },
+               {
+                    "id": 2,
+                    "reinscripciones": 4
+               }
+          ]
+     },
+     {
+          "id": 2,
+          "nombre": "Romina",
+          "email": "romina@test.com",
+          "cursando": [
+               {
+                    "id": 3,
+                    "reinscripciones": 6
+               },
+               {
+                    "id": 1,
+                    "reinscripciones": 6
+               },
+               {
+                    "id": 7,
+                    "reinscripciones": 2
+               },
+               {
+                    "id": 6,
+                    "reinscripciones": 0
+               }
+          ]
+     },
+     {
+          "id": 3,
+          "nombre": "Matilde",
+          "email": "matilde@test.com",
+          "cursando": [
+               {
+                    "id": 6,
+                    "reinscripciones": 0
+               },
+               {
+                    "id": 3,
+                    "reinscripciones": 1
+               }
+          ]
+     }
+]
